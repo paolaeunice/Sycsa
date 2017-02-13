@@ -135,6 +135,10 @@ p{
 .oculto {
     display:none;
 }
+.pm{
+    padding: auto;
+    margin: auto;
+}
 .t {
     position:fixed !important;
     top:0px !important;
