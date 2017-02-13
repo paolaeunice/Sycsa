@@ -173,3 +173,11 @@ p{
   color: white !important;
   outline: none !important;
 }
+
+.container-fuild{
+    height: 350px;
+    width: 300px;
+    background: url('../img/ventas.png') center center no-repeat scroll;
+    
+    
+}
