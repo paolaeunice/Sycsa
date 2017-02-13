@@ -23,12 +23,13 @@ $(document).ready(function(e) {
         if($("#content_details").hasClass('drop_menu')) { $("#content_details").addClass('drop_menu1').removeClass('drop_menu'); }
 		else{ $("#content_details").addClass('drop_menu').removeClass('drop_menu1'); }
 	});
+    $('#div6').show();
     $('#long, #div2, #div3, #div4, #div5').hide();
 });
 $(function() {
     $('#home').click(function() {
         $('div[id^=div]').hide(1000);
-        $('#div1').show(500);
+        $('#div1, #div6').show(500);
     });
     $('#sistemas').click(function() {
         $('div[id^=div]').hide(1000);
